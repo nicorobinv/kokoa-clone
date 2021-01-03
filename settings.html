@@ -4,7 +4,7 @@
     <link rel="stylesheet" href="css/styles.css" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Chats - Kokoa Clone</title>
+    <title>Settings - Kokoa Clone</title>
   </head>
   <body>
     <div class="status-bar">
@@ -22,37 +22,44 @@
       </div>
     </div>
 
-    <header class="screen-header">
-      <h1 class="screen-header__title">Chats</h1>
-      <div class="screen-header__icons">
-        <span><i class="fas fa-search fa-lg"></i></span>
-        <span><i class="far fa-comment-dots fa-lg"></i></span>
-        <span><i class="fas fa-music fa-lg"></i></span>
-        <span><i class="fas fa-cog fa-lg"></i></span>
+    <header class="alt-header">
+      <div class="alt-header__column">
+        <a href="more.html">
+          <i class="fas fa-angle-left fa-3x"></i>
+        </a>
+      </div>
+      <div class="alt-header__column">
+        <h1 class="alt-header__title">Settings</h1>
+      </div>
+      <div class="alt-header__column">
+        <i class="fas fa-search fa-lg"></i>
       </div>
     </header>
 
     <main class="main-screen">
-      <a href="chat.html">
-        <div class="user-component">
-          <div class="user-component__column">
-            <img
-              src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.ytimg.com%2Fvi%2F8fLcPi2ydS0%2Fmaxresdefault.jpg&f=1&nofb=1"
-              class="user-component__avatar user-component__avatar"
-            />
-            <div class="user-component__text">
-              <h4 class="user-component__title">Nicolas</h4>
-              <h6 class="usser-component__subtitle">
-                Please check My Kokoa Account Info
-              </h6>
-            </div>
+      <ul class="settings-list">
+        <li class="settings__setting">
+          <div class="settings__setting-column">
+            <i class="fas fa-bullhorn"></i>
+            <span>Notices</span>
           </div>
-          <div class="user-component__column">
-            <span class="user-component__time">21:22</span>
-            <div class="badge">1</div>
+          <div class="settings__setting-column"></div>
+        </li>
+        <li class="settings__setting">
+          <div class="settings__setting-column">
+            <i class="fas fa-flask"></i>
+            <span>Kokoa Lab</span>
           </div>
-        </div>
-      </a>
+          <div class="settings__setting-column"></div>
+        </li>
+        <li class="settings__setting">
+          <div class="settings__setting-column">
+            <i class="fas fa-info-circle"></i>
+            <span>Version</span>
+          </div>
+          <div class="settings__setting-column">Latest Version</div>
+        </li>
+      </ul>
     </main>
 
     <nav class="nav">
@@ -65,8 +72,8 @@
         <li class="nav__btn">
           <a class="nav__link" href="chats.html">
             <span class="nav__notification badge">1</span>
-            <i class="fas fa-comment fa-2x"></i
-          ></a>
+            <i class="far fa-comment fa-2x"></i>
+          </a>
         </li>
         <li class="nav__btn">
           <a class="nav__link" href="find.html"
@@ -82,7 +89,7 @@
     </nav>
 
     <script
-      src="https://kit.fontawesome.com/c4ea5b353c.js"
+      src="https://kit.fontawesome.com/6478f529f2.js"
       crossorigin="anonymous"
     ></script>
   </body>
